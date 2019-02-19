@@ -188,3 +188,82 @@ header .links-wrapper {
   background-repeat: no-repeat;
   background-position: right;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jobs-intro {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 900px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.job-photos-wrapper {
+  display: block;
+  max-height: 370px;
+  max-width: 100%;
+}
+
+.job-photos-wrapper .job-photo:first-child {
+  grid-row: span 2;
+  display: block;
+}
+
+.job-photos-wrapper .job-photo:first-child img {
+  max-width: 100vmin;
+  max-height: 300px;
+  width: auto;
+}
+
+.job-photos-wrapper .job-photo:not(:first-child) {
+  display: none;
+}
+
+.job-photos-wrapper .job-photo:not(:first-child) img {
+  height: 120px;
+}
+
+.job-photos-wrapper .job-photo:last-child {
+  align-self: end;
+}
+
+.jobs-intro-links {
+  margin-left: 0;
+  text-align: center;
+}
+
+.jobs-intro-links h2 {
+  margin-top: 20px;
+  color: brown;
+}
+
+.jobs-intro button {
+  display: block;
+  border-radius: 2px;
+  background: black;
+  height: 40px;
+  width: 150px;
+  color: white;
+  font-size: 0.8em;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.jobs-intro button:hover {
+  background: grey;
+  color: white;
+}

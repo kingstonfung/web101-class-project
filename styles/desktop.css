@@ -50,6 +50,11 @@
 
 
 
+
+
+
+  
+
   .showcase-content {
     display: flex;
     flex-direction: row;
@@ -59,6 +64,55 @@
 
   .showcase-item {
     width: 300px;
+    margin: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+  .jobs-intro {
+    flex-direction: row;
+    padding: 0 20px;
+  }
+
+  .jobs-intro-links {
+    text-align: left;
+    margin-left: 50px;
+  }
+
+  .jobs-intro-links h2 {
+    margin-top: 0;
+  }
+
+  .job-photos-wrapper .job-photo:first-child img {
+    max-height: 260px;
+  }
+
+  .job-photos-wrapper {
+    display: block;
+    max-width: 400px;
+    height: 200px;
+  }
+
+  .job-photos-wrapper {
+    display: grid;
+    grid-template-columns: 300px 150px;
+    grid-template-rows: 50% 50%;
+    max-width: 450px;
+    height: 260px;
+  }
+
+  .job-photos-wrapper .job-photo:not(:first-child) {
+    display: block;
+  }
+
+  .jobs-intro button {
     margin: 0;
   }
 }
