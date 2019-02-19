@@ -65,3 +65,36 @@ h2 {
 .hero-content {
   text-align: center;
 }
+
+header {
+  grid-column: span;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1.4em;
+  color: white;
+  border-bottom: none;
+  max-height: 50px;
+  display: flex;
+}
+
+header .logo-wrapper {
+  flex-grow: 2;
+  text-align: center;
+}
+
+header .logo {
+  height: 25px;
+}
+
+header a:first-child {
+  margin: 0;
+}
+
+header a {
+  font-size: 1em !important;
+  margin-left: 30px;
+}
+
+header .links-wrapper {
+  display: none;
+}
