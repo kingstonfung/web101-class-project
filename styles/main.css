@@ -371,6 +371,10 @@ header .links-wrapper {
   border: 0 none;
 }
 
+.newsletter-wrapper form.hide {
+  display: none;
+}
+
 .newsletter-thank-you {
   margin: 0 auto;
   text-align: center;
@@ -380,6 +384,9 @@ header .links-wrapper {
   margin-bottom: 5px;
 }
 
+.newsletter-thank-you.hide {
+  display: none;
+}
 
 
 
