@@ -5,8 +5,10 @@
     <link href="/styles/main.css" rel="stylesheet">
     <link href="/styles/desktop.css" rel="stylesheet">
     <link href="/styles/jobs.css" rel="stylesheet">
+    <link href="/styles/reservation-widget.css" rel="stylesheet">
     <title>Sunny's Coffee Shop</title>
-    <script src="/scripts/main.js" type="text/javascript"></script>Z
+    <script src="/scripts/main.js" type="text/javascript"></script>
+    <script src="/scripts/reservation-widget.js" type="text/javascript"></script>
   </head>
   <body>
     <nav class="mobile-flyout-nav">
@@ -28,6 +30,60 @@
         </li>
       </ul>
     </nav>
+    <div class="reservation-widget">
+      <div class="dot-button">
+        <img src="images/calendar.svg" />
+      </div>
+      <div class="flyout-reservation-form">
+        <span class="close-button">x</span>
+        <form id="reservationForm">
+          <h3>Reserver A Table</h3>
+          <div class="selection-wrapper">
+            <label for="headCountSelector">How Many People?</label>
+            <select id="headCountSelector" class="head-count-selector">
+              <option value="1">One Person</option>
+              <option value="2">Two People</option>
+              <option value="3">Three People</option>
+              <option value="4">Four People</option>
+            </select>
+          </div>
+          <div class="selection-wrapper">
+            <label for="head-count-selector">Which Date?</label>
+            <select id="daySelector" class="day-selector"></select>
+          </div>
+          <div class="selection-wrapper">
+            <label for="timeSelector">What Time?</label>
+            <select id="timeSelector" class="time-selector">
+              <option value="11:00am">11:00am</option>
+              <option value="11:30am">11:30am</option>
+              <option value="12:00pm">12:00pm</option>
+              <option value="12:30pm">12:30pm</option>
+              <option value="1:00pm">1:00pm</option>
+              <option value="1:30pm">1:30pm</option>
+              <option value="2:00pm">2:00pm</option>
+              <option value="2:30pm">2:30pm</option>
+              <option value="3:00pm">3:00pm</option>
+              <option value="3:30pm">3:30pm</option>
+              <option value="4:00pm">4:00pm</option>
+              <option value="4:30pm">4:30pm</option>
+              <option value="5:00pm">5:00pm</option>
+              <option value="5:30pm">5:30pm</option>
+              <option value="6:00pm">6:00pm</option>
+              <option value="6:30pm">6:30pm</option>
+            </select>
+          </div>
+          <div class="selection-wrapper">
+            <label for="reservationEmail">Your Email?</label>
+            <input id="reservationEmail" class="reservation-email" type="text"></input>
+          </div>
+          <button class="submit-reservation" type="button">Reserve Table</button>
+        </form>
+        <div class="thank-you hide">
+          <h3>Thank You!</h3>
+          <p>Will be seeing you soon.</p>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <header>
         <div class="logo-wrapper">
