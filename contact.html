@@ -3,10 +3,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <link href="/styles/main.css" rel="stylesheet">
-    <link href="/styles/about-us.css" rel="stylesheet">
+    <link href="/styles/contact.css" rel="stylesheet">
     <link href="/styles/desktop.css" rel="stylesheet">
     <title>Sunny's Coffee Shop</title>
     <script src="/scripts/main.js" type="text/javascript"></script>
+    <script src="/scripts/contact.js" type="text/javascript"></script>
+    <script async defer src="http://bit.ly/gmaps-igeek-web101"></script>
   </head>
   <body>
     <nav class="mobile-flyout-nav">
@@ -49,38 +51,28 @@
         </div>
       </header>
       <main>
-        <div class="hero">
-          <div class="hero-content">
-            <h1>How we started</h1>
-          </div>
-        </div>
+        <div id="map"></div>
         <div class="content">
-          <h3>Our passion to use and serve the best coffee.</h3>
-          <div class="about-text">
-            <p>
-              We started it to fulfill our desire to create,
-              do work we were passionate about,
-              as well as our need for and interest in great coffee.
-              Here's what led to starting it.
-            </p>
-            <p>
-              Shop single shot dark grounds instant whipped con panna spoon irish.
-              Filter steamed cup grounds dark sit white flavour caffeine white.
-              Aftertaste, cup, java est organic sugar robusta galão wings.
-              Sugar mug, trifecta viennese mocha caffeine cappuccino con panna.
-            </p>
-            <p>
-              Frappuccino galão arabica viennese java instant cinnamon.
-              Cinnamon so and half and half eu extraction froth.
-              Chicory mocha, cultivar percolator con panna single shot fair trade.
-              Iced instant affogato, sit siphon single origin that extra robust.                
-            </p>
-            <p>
-              Whipped, seasonal fair trade robust coffee, extraction, robusta espresso plunger pot
-              robusta beans spoon. Barista dark beans americano percolator single origin white sweet strong dark.
-              Frappuccino wings robusta cultivar kopi-luwak arabica filter bar black cream café au lait.
-              Redeye, in viennese roast café au lait body acerbic.
-            </p>
+          <h3>Business Hours</h3>
+          <div class="business-hours-wrapper">
+            <div class="days">
+              <span>Monday:</span>
+              <span>Tuesday:</span>
+              <span>Wednesday:</span>
+              <span>Thursday:</span>
+              <span>Friday:</span>
+              <span>Saturday:</span>
+              <span>Sunday:</span>
+            </div>
+            <div class="hours">
+              <span>7:00am - 7:00pm</span>
+              <span>7:00am - 7:00pm</span>
+              <span>7:00am - 7:00pm</span>
+              <span>7:00am - 7:00pm</span>
+              <span>7:00am - 7:00pm</span>
+              <span>8:00am - 5:00pm</span>
+              <span>9:00am - 5:00pm</span>
+            </div>
           </div>
         </div>
         <div class="newsletter-wrapper">
