@@ -374,3 +374,87 @@ header .links-wrapper {
 .newsletter-thank-you h3 {
   margin-bottom: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+footer div {
+  min-width: 100%;
+}
+
+footer a,
+footer a:link,
+footer a:hover,
+footer a:active,
+footer a:visited {
+  font-size: 1em;
+}
+
+footer .top-row {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: brown;
+  margin-top: 30px;
+}
+
+footer .top-row:first-child {
+  margin-top: 0;
+}
+
+footer .one {
+  order: 1;
+}
+
+footer .two {
+  order: 2;
+}
+
+footer .three {
+  order: 3;
+}
+
+footer .four {
+  order: 4;
+}
+
+footer .five {
+  order: 5;
+}
+
+footer .six {
+  order: 6;
+}
+
+footer .seven {
+  order: 7;
+}
+
+footer .eight {
+  order: 8;
+}

@@ -140,4 +140,44 @@
   .newsletter-wrapper form input[type="text"] {
     margin-bottom: 0;
   }
+
+
+
+
+
+
+
+
+
+
+
+  footer {
+    padding: 0 100px;
+    width: calc(100% - 200px);
+    height: 150px;
+    margin-bottom: 100px;
+    display: grid;
+    align-items: start;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: 4fr 3fr 3fr 4fr;
+    grid-template-rows: 2fr 4fr;
+    text-align: left;
+  }
+
+  footer .top-row {
+    margin-top: 0;
+    text-decoration: none;
+  }
+
+  footer .one,
+  footer .two,
+  footer .three,
+  footer .four,
+  footer .five,
+  footer .six,
+  footer .seven,
+  footer .eight {
+    order: 0;    
+  }
 }
