@@ -181,3 +181,11 @@
     order: 0;    
   }
 }
+
+
+
+@media (max-width: 850px) {
+  header {
+    padding: 30px 30px;
+  }
+}
