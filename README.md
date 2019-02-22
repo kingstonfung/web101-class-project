@@ -1,6 +1,6 @@
 # Web Development Workshop 101
 ## For U of A iGeek Student Group, February 23 - 24
-For the finished website, please see https://kingstontest1.z19.web.core.windows.net
+For the finished website, please see https://kingstontest2.z5.web.core.windows.net/
 
 ## Deploying:
 1. For simplicity, please copy the following files & folders to the `deployable` directory:
@@ -28,3 +28,8 @@ npm install
 npm run cypress
 ```
 4. Explore the `/cypress/integration/` folder to see example tests written for this website.
+
+## If you are falling behind:
+1. Please select branch of the closest checkpoint to the workshop at https://github.com/kingstonfung/web101-class-project/branches/active
+2. Without using git, you can download the entire project directory of the selected branch.
+3. Unzip the file, and then you can contine on with the workshop session.
